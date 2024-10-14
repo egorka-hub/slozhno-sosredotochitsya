@@ -1,4 +1,27 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --color-pink-light: #fff1f7;
+  --color-pink-base: #f1b2ce;
+  --color-pink-muted: #ffc2e6;
+  --color-pink-bright: #ff8dcb;
+
+  --color-purple-primary: #db00ff;
+  --color-purple-secondary: #ff0070;
+  --color-purple-secondary-opacity-40: #ff007040;
+
+  --color-black-primary: #000028;
+  --color-black-secondary: #353430;
+  --color-black-secondary-opacity-40: #35343040;
+
+  --text-primary-color: var(--color-pink-base, #f1b2ce);
+  --brand-primary-color: var(--color-purple-primary, #db00ff);
+  --secondary-color: var(--color-purple-secondary, #ff0070);
+  --secondary-opacity-40: var(--color-purple-secondary-opacity-40, #ff007040);
+  --accent-color: var(--color-purple-secondary, #ff0070);
+  --highlight-color: var(--color-black-primary, #000028);
+
+  --page-font-family: 'IBM Plex mono', monospace;
+  --page-cover-background-image: url('../images/cover-image.png');
+  --page-background-color: var(--color-black-primary, #000028);
+
+  --decorative-element-visibility: visible;
+}

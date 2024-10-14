@@ -1,12 +1,29 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --text-primary-color: var(--color-black-secondary, #353430);
+  --accent-color: var(--color-pink-bright, #ff8dcb);
+  --brand-primary-color: var(--color-pink-muted, #ffc2e6);
+  --highlight-color: var(--color-black-secondary, #353430);
+  --secondary-color: var(--color-black-secondary, #353430);
+  --secondary-opacity-40: var(--color-black-secondary-opacity-40, #35343040);
+
+  --page-background-color: var(--color-pink-light, #fff1f7);
+  --page-background-image: url('../images/cover-image-light.png');
+
+  --decorative-element-visibility: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-primary-color: var(--color-black-secondary, #353430);
+    --accent-color: var(--color-pink-bright, #ff8dcb);
+    --brand-primary-color: var(--color-pink-muted, #ffc2e6);
+    --highlight-color: var(--color-black-secondary, #353430);
+    --secondary-color: var(--color-black-secondary, #353430);
+    --secondary-opacity-40: var(--color-black-secondary-opacity-40, #35343040);
+
+    --page-background-color: var(--color-pink-light, #fff1f7);
+    --page-background-image: url('../images/cover-image-light.png');
+
+    --decorative-element-visibility: hidden;
+  }
 }
