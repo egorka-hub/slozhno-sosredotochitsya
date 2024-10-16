@@ -1,29 +1,13 @@
 .page.theme_dark {
-  --text-primary-color: var(--color-pink-base, #f1b2ce);
-  --brand-primary-color: var(--color-purple-primary, #db00ff);
-  --secondary-color: var(--color-purple-secondary, #ff0070);
-  --secondary-opacity-40: var(--color-purple-secondary-opacity-40, #ff007040);
-  --accent-color: var(--color-purple-secondary, #ff0070);
-  --highlight-color: var(--color-black-primary, #000028);
-
   --page-background-color: var(--color-black-primary, #000028);
   --page-background-image: url('../images/cover-image-dark.png');
-
   --decorative-element-visibility: visible;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-primary-color: var(--color-pink-base, #f1b2ce);
-    --brand-primary-color: var(--color-purple-primary, #db00ff);
-    --secondary-color: var(--color-purple-secondary, #ff0070);
-    --secondary-opacity-40: var(--color-purple-secondary-opacity-40, #ff007040);
-    --accent-color: var(--color-purple-secondary, #ff0070);
-    --highlight-color: var(--color-black-primary, #000028);
-
     --page-background-color: var(--color-black-primary, #000028);
     --page-background-image: url('../images/cover-image-dark.png');
-
     --decorative-element-visibility: visible;
   }
 }

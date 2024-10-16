@@ -4,7 +4,7 @@
   --brand-primary-color: var(--color-pink-muted, #ffc2e6);
   --highlight-color: var(--color-black-secondary, #353430);
   --secondary-color: var(--color-black-secondary, #353430);
-  --secondary-opacity-40: var(--color-black-secondary-opacity-40, #35343040);
+  --secondary-opacity: var(--color-black-secondary-opacity, #35343040);
 
   --page-background-color: var(--color-pink-light, #fff1f7);
   --page-background-image: url('../images/cover-image-light.png');
@@ -19,7 +19,7 @@
     --brand-primary-color: var(--color-pink-muted, #ffc2e6);
     --highlight-color: var(--color-black-secondary, #353430);
     --secondary-color: var(--color-black-secondary, #353430);
-    --secondary-opacity-40: var(--color-black-secondary-opacity-40, #35343040);
+    --secondary-opacity: var(--color-black-secondary-opacity, #35343040);
 
     --page-background-color: var(--color-pink-light, #fff1f7);
     --page-background-image: url('../images/cover-image-light.png');

@@ -6,16 +6,16 @@
 
   --color-purple-primary: #db00ff;
   --color-purple-secondary: #ff0070;
-  --color-purple-secondary-opacity-40: #ff007040;
+  --color-purple-secondary-opacity: #ff007040;
 
   --color-black-primary: #000028;
   --color-black-secondary: #353430;
-  --color-black-secondary-opacity-40: #35343040;
+  --color-black-secondary-opacity: #35343040;
 
   --text-primary-color: var(--color-pink-base, #f1b2ce);
   --brand-primary-color: var(--color-purple-primary, #db00ff);
   --secondary-color: var(--color-purple-secondary, #ff0070);
-  --secondary-opacity-40: var(--color-purple-secondary-opacity-40, #ff007040);
+  --secondary-opacity: var(--color-purple-secondary-opacity, #ff007080);
   --accent-color: var(--color-purple-secondary, #ff0070);
   --highlight-color: var(--color-black-primary, #000028);
 
