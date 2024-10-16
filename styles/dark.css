@@ -2,7 +2,7 @@
   --text-primary-color: var(--color-pink-base, #f1b2ce);
   --brand-primary-color: var(--color-purple-primary, #db00ff);
   --secondary-color: var(--color-purple-secondary, #ff0070);
-  --secondary-opacity: var(--color-purple-secondary-opacity-40, #ff007080);
+  --secondary-opacity: var(--color-purple-secondary-opacity, #ff007080);
   --accent-color: var(--color-purple-secondary, #ff0070);
   --highlight-color: var(--color-black-primary, #000028);
 
